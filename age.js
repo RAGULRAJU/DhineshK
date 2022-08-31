@@ -1,4 +1,4 @@
-//alert("Welcome to the Age Calculator")
+alert("Welcome to the Age Calculator")
 function calculateAge() {
     var d1 = document.getElementById('date').value;
     var m1 = document.getElementById('month').value;
@@ -28,5 +28,13 @@ function calculateAge() {
     if(y1>y2)
     {
         document.getElementById("displayAge").innerHTML='Date of Brith must be earlier than today`s date';
+    }
+    if(d1>31 || d1<0)
+    {
+          document.getElementById("displayAge").innerHTML=' Enter the date of birth properly';
+    }
+    if(m1>12 || m1<0)
+    {
+         document.getElementById("displayAge").innerHTML=' Enter the date of birth properly';
     }
 }
