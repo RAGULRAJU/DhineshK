@@ -3,10 +3,11 @@
 }
 body
 {
-    background-image: url('https://images.wallpapersden.com/image/download/4k-natural-gradient_a2xsZmiUmZqaraWkpJRma2VlrW5lZQ.jpg');
+/*     background-image: url('https://images.wallpapersden.com/image/download/4k-natural-gradient_a2xsZmiUmZqaraWkpJRma2VlrW5lZQ.jpg');
     background-repeat: no-repeat;
     background-position:center;
-    background-size: cover !important;
+    background-size: cover !important; */
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     color: white;
     display: flex;
     align-items: center;
